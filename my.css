@@ -1,0 +1,46 @@
+      html{
+        position: relative;
+        min-height: 100%;
+      }
+      body{
+  			background-color: #C63D0F;        
+        margin-bottom: 50px;
+        
+  		}
+  		label,h1{
+  			color: #FDF3E7
+  		}
+      .form-control::-webkit-input-placeholder { color: #FDF3E7; }
+      .form-control::select{background-color: #7E8F7C;
+        color: white;}
+      textarea[class="form-control"],input[type="text"],input[type="password"],select[name="gradYear"],select[name="GPA"],button[type="reset"]{
+        background-color: #7E8F7C;
+        color: white;
+      }
+      .row{
+        margin: 100px;
+      }
+      #section1 {padding-top:50px;}
+      #section2 {padding-top:50px;background-color: #7E8F7C;}
+      #section3 {padding-top:50px;}
+      #section4 {padding-top:50px;background-color: #7E8F7C;}
+      .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 50px;
+        background-color: #222222;
+        color: #FDF3E7;
+      }
+      .container1{
+         width: auto;
+         max-width: 680px;
+         padding: 0 15px;
+      }
+      .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+        background-color: #7E8F7C;
+      }
+      .error {color: #3B3738;}
+
+      
